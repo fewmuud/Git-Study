@@ -14,6 +14,9 @@ Git commit规范
 
 git checkout ***将当前分支切换到***分支
 
-test
+git remote add origin git@*** 将本地仓库连接远程仓库，并将远程仓库的别名命名为origin
+当一个本地仓库关联不同的远程仓库时，不同的远程仓库别名需不同，以便将更改推送至不同的远程仓库
 
-test2
+git branch -M main 将本地的当前活动分支重命名为main，如果目标分支名称已经存在，将会覆盖已有的同名分支
+
+git push -u origin main 将本地的main分支推送到别名为origin的远程仓库
