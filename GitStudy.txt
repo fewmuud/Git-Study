@@ -6,5 +6,8 @@ git commit -m '提交说明' 将文件加入本地仓库
 
 git log查看日志
 
+add *提交目录下所有文件到暂存区
 
+add .该目录提交至暂存区
 
+Git commit规范
